@@ -1,4 +1,6 @@
 'use client'
+import { Button } from '@/components/ui/button'
+import { Paragraph } from '@/components/ui/paragraph'
 import { useState } from 'react'
 
 export function Counter() {
@@ -11,9 +13,11 @@ export function Counter() {
   const label = `Count: ${counter}`
 
   return (
-    <div className="flex flex-col gap-2">
-      <p className="text-center text-sm text-slate-500">{label}</p>
-      <button onClick={increment}>Increment</button>
+    <div className="flex flex-col items-center gap-2">
+      <Paragraph className="text-center" variant="muted">
+        {label}
+      </Paragraph>
+      <Button onClick={increment}>Increment</Button>
     </div>
   )
 }
