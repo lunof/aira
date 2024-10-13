@@ -1,0 +1,44 @@
+name: '\U0001F4DA Documentation'
+description: Suggest a change or new page to be added to Aira documentation
+labels: [':memo: documentation']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue!
+  - type: checkboxes
+    id: documentation_is
+    attributes:
+      label: Documentation is
+      options:
+        - label: Missing
+        - label: Outdated
+        - label: Confusing
+        - label: Not sure?
+  - type: textarea
+    id: description
+    attributes:
+      label: Explain in Detail
+      description: A clear and concise description of your suggestion. If you intend to submit a PR for this issue, let us know in the description. Thanks!
+      placeholder: The description of ... page is not clear. I thought it meant ... but it wasn't.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your Suggestion for Changes
+      description: Provide your suggestions for improving or updating the documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other context or links that could help us better understand the suggested changes.
+      placeholder: Additional details or examples that illustrate your point.
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce (Optional)
+      description: Please provide any steps that may help in reproducing an issue with the current documentation, if applicable.
+      placeholder: Run `npm install` followed by `npm run dev`
