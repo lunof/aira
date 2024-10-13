@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <a href="https://github.com/lunof/aira" target="_blank" rel="noopener noreferrer">
+    <img width="180" src="https://res.cloudinary.com/dmdfnfpma/image/upload/v1728843179/Aira/aira-github-cover_urkzvd.jpg" alt="A serene landscape featuring Mount Fuji at sunset, with a torii gate and glowing lanterns in the foreground. A traveler with a backpack stands before the gate, surrounded by cherry blossom branches and mist-covered mountains by the water.">
+  </a>
+</p>
+<br/>
+
+# Aira 🌸
+
+> Personalized Messages for Mother's Day Made Easy
+
+Aira is an application designed to collect heartfelt messages for Mother's Day, enhance them using AI, and deliver them via WhatsApp to create special moments. Aira simplifies the process of making messages more meaningful and ensures that each sentiment reaches the recipient in a special way.
+
+- 💌 Easy Message Collection
+- 🤖 AI-Powered Message Enhancement
+- 📱 WhatsApp Integration for Seamless Delivery
+- 🛠️ User-Friendly Experience
 
 ## Getting Started
 
@@ -18,19 +34,26 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
+
+Aira is built to enhance and deliver personalized Mother's Day messages, but its capabilities can extend to other special occasions. It comes with features that make it easy to:
+
+- Collect messages via an intuitive form interface.
+- Enhance the content using AI to create more touching, eloquent messages.
+- Seamlessly send these messages through WhatsApp, ensuring they arrive at the perfect moment.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Aira is built using Next.js. You can learn more about Next.js by reading the [Next.js Documentation](https://nextjs.org/docs).
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Aira is deployed on Vercel automatically when new changes are merged into the main branch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contribution
+
+We appreciate contributions! See the [Contributing Guide](CONTRIBUTING.md) for guidelines.
+
+## License
+
+[MIT](LICENSE).
