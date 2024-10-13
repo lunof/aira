@@ -1,0 +1,67 @@
+name: '\U0001F41E Bug report for Stakeholders'
+description: Report an issue with Aira, intended for non-technical stakeholders
+labels: [':bug: bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the issue
+      description: 'Please provide a clear description of the problem you are experiencing. Focus on the impact it has on your experience or workflow.'
+      placeholder: 'I tried to do... but I expected... and what actually happened was...'
+    validations:
+      required: true
+  - type: input
+    id: impact
+    attributes:
+      label: Impact of the issue
+      description: 'Describe how this issue affects your work or the overall experience of using Aira.'
+      placeholder: 'This issue prevents me from... or affects...'
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps taken
+      description: 'Briefly describe the steps you took before encountering the issue, if applicable. This helps us understand the context.'
+      placeholder: 'I logged in, then navigated to...'
+  - type: textarea
+    id: urgency
+    attributes:
+      label: Urgency
+      description: 'How urgent is this issue for you? This helps us prioritize.'
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional Comments
+      description: 'Any other information or observations you would like to share.'
+      placeholder: 'Additional details or context here.'
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: Confirmations
+      description: Please confirm the following before submitting this issue
+      options:
+        - label: I have provided a clear description of the issue.
+          required: true
+        - label: I understand that providing detailed information helps resolve issues faster.
+          required: true
+        - label: Read the [Contributing Guidelines](https://github.com/lunof/aira/blob/main/CONTRIBUTING.md).
+          required: true
+        - label: Check that there isn't [already an issue](https://github.com/lunof/aira/issues) that reports the same bug to avoid creating a duplicate.
+          required: true
+        - label: Make sure this is an issue specific to Aira and not related to another framework.
+          required: true
+        - label: The provided reproduction is a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
+          required: true
