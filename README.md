@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/lunof/aira" target="_blank" rel="noopener noreferrer">
-    <img width="180" src="https://res.cloudinary.com/dmdfnfpma/image/upload/v1728843179/Aira/aira-github-cover_urkzvd.jpg" alt="A serene landscape featuring Mount Fuji at sunset, with a torii gate and glowing lanterns in the foreground. A traveler with a backpack stands before the gate, surrounded by cherry blossom branches and mist-covered mountains by the water.">
+    <img src="https://res.cloudinary.com/dmdfnfpma/image/upload/v1728843179/Aira/aira-github-cover_urkzvd.jpg" alt="A serene landscape featuring Mount Fuji at sunset, with a torii gate and glowing lanterns in the foreground. A traveler with a backpack stands before the gate, surrounded by cherry blossom branches and mist-covered mountains by the water.">
   </a>
 </p>
 <br/>
