@@ -20,6 +20,6 @@ const Small = React.forwardRef<HTMLElement, SmallProps>(
   },
 )
 
-Small.displayName = 'List'
+Small.displayName = 'Small'
 
 export { Small }
