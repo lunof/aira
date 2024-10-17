@@ -1,6 +1,6 @@
-import { Counter } from '@/app/components/counter'
 import { Heading } from '@/components/ui/heading'
 import { Small } from '@/components/ui/small'
+import { MyFirstComponent } from '@/app/components/my-first-component'
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
             Made with &#x1F49B; and JavaScript
           </Small>
         </div>
-        <Counter />
+        <MyFirstComponent initialValue={20} incrementBy={10} />
       </div>
     </main>
   )
